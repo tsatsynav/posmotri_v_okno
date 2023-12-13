@@ -4,20 +4,6 @@
   box-sizing: border-box;
 }
 
-html {
-  block-size: 100%;
-}
-
-.page {
-  inline-size: 1200px;
-  block-size: 100%;
-  margin: auto;
-  color: #fff;
-  font-family: "Fira Sans Condensed", sans-serif;
-  font-size: 18px;
-  background-color: #1b1919;
-}
-
 h1,
 h2,
 h3,
@@ -36,3 +22,40 @@ ul,
 ol {
   list-style: none;
 }
+
+html {
+  block-size: 100%;
+}
+
+.page {
+  inline-size: 1200px;
+  block-size: 100%;
+  margin: 0 auto;
+  color: #fff;
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-size: 18px;
+  background-color: #1b1919;
+}
+
+.content {
+  height: 534px;
+  display: flex;
+  padding: 133px 30px;
+  gap: 30px;
+}
+
+.result {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.result__video-container {
+  max-width: 711px;
+}
+
+.result__video {
+  width: 100%;
+}
+
+
