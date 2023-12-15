@@ -126,12 +126,12 @@ html {
 
 .search-form__textfield:active {
   outline: 1px solid #fff;
-} 
+}
 
 .search-form__label:has(:focus-visible) {
   outline: 1px solid #fff;
   outline-offset: 2px;
-} 
+}
 
 .search-form__checkbox-list {
   display: flex;
@@ -171,6 +171,7 @@ html {
   border: 1px solid #fff;
   font-size: 18px;
   font-weight: 700;
+  letter-spacing: -1px;
   color: #fff;
   background-color: transparent;
   cursor: pointer;
