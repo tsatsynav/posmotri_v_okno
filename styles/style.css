@@ -56,7 +56,7 @@ html {
 
 .button:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: -3px;
 }
 
 .button:hover {
@@ -272,7 +272,7 @@ html {
 
 .content__card-link:focus-visible {
   outline: 1px solid #fff;
-  outline-offset: 2px;
+  outline-offset: 1px;
 }
 
 .content__card-link_current {
@@ -311,8 +311,4 @@ html {
 
 .more-button {
   inline-size: 100%;
-}
-
-.more-button:focus-visible {
-  outline-offset: -3px;
 }
